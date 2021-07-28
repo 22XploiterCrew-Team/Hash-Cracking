@@ -13,7 +13,7 @@ clone for github
 
 ## Usage
 
-```php hash-crack.php```
+```php hashCrack.php```
 
 the this command will take you into the interaction tool, if you want to enter more than one hash, then separate the hashes with a comma.
 
@@ -25,6 +25,7 @@ the this command will take you into the interaction tool, if you want to enter m
 /_/ /_/\__,_/____/_/ /_/   \____/_/   \__,_/\___/_/|_/_/_/ /_/\__, /  
 CRACK AND CHECK HASH TYPES IN BULK                           /____/   
 
-Hash: blablabla
-Wordlist: path-to/wordlist.txt
+Hash				: blablabla
+Wordlist file  : path-to/wordlist.txt
 ```
+If the input ***wordlist file*** is empty, it will use the default wordlist that has been set by the program, the default wordlist in ***./wordlist/wordlist-1.txt***
